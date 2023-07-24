@@ -1,0 +1,14 @@
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/skypro</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">Dovaziyliil1551.</property>
+        <property name="hibernate.format_sql_sql ">true</property>
+        <property name="hibernate.show_sql ">true</property>
+        <property name="hbm2ddl.auto">update</property>
+
+    </session-factory>
+</hibernate-configuration>
